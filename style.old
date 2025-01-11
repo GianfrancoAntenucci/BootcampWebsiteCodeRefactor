@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,42 +6,37 @@
     font-family: Arial, sans-serif;
 }
 
-/* Navigation Bar Styles */
-header#navbar {
+
+#navbar {
     background-color: #333;
     color: white;
     padding: 10px 20px;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-header#navbar .logo {
+#navbar .logo {
     font-size: 24px;
     font-weight: bold;
 }
 
-header#navbar nav a {
+#navbar .nav-links a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
     font-size: 16px;
 }
 
-/* Header Section Styles */
-section#header {
+#header {
     text-align: center;
     margin-bottom: 40px;
 }
 
-section#header img {
+#header img {
     width: 100%;
     height: auto;
 }
 
-/* Footer Styles */
-footer#footer {
+#footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -49,14 +44,12 @@ footer#footer {
     margin-top: 40px;
 }
 
-/* Contact Section Styles */
-section#contact {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 8px;
+#contact {
+    background-color: #949b9f48;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #007acc;
     margin-bottom: 20px;
 }
@@ -85,12 +78,11 @@ input[type="submit"] {
     border-radius: 4px;
 }
 
-/* Section Styles */
 .section {
     margin: auto;
     padding: 20px;
     margin-bottom: 40px;
-    max-width: 800px;
+    width: 800px
 }
 
 .intro-text {
