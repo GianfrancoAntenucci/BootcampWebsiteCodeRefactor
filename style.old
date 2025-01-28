@@ -1,4 +1,4 @@
-
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,37 +6,42 @@
     font-family: Arial, sans-serif;
 }
 
-
-#navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+/* Navigation Bar Styles */
+header#navbar {
+    background-color: #d4d4d4d1;
+    color: rgb(64, 64, 64);
+    padding: 15px 20px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#navbar .logo {
+header#navbar .logo {
     font-size: 24px;
     font-weight: bold;
 }
 
-#navbar .nav-links a {
-    color: white;
-    margin: 0 15px;
+header#navbar nav a {
+    color: rgb(49, 49, 49);
+    margin: 0 10px;
     text-decoration: none;
     font-size: 16px;
 }
 
-#header {
+/* Header Section Styles */
+section#header {
     text-align: center;
     margin-bottom: 40px;
 }
 
-#header img {
+section#header img {
     width: 100%;
     height: auto;
 }
 
-#footer {
+/* Footer Styles */
+footer#footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -44,12 +49,14 @@
     margin-top: 40px;
 }
 
-#contact {
-    background-color: #949b9f48;
+/* Contact Section Styles */
+section#contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-h1,
-h2 {
+h1, h2 {
     color: #007acc;
     margin-bottom: 20px;
 }
@@ -78,11 +85,12 @@ input[type="submit"] {
     border-radius: 4px;
 }
 
+/* Section Styles */
 .section {
     margin: auto;
     padding: 20px;
     margin-bottom: 40px;
-    width: 800px
+    max-width: 800px;
 }
 
 .intro-text {
