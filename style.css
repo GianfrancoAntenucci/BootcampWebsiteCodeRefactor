@@ -8,9 +8,9 @@
 
 /* Navigation Bar Styles */
 header#navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+    background-color: #d4d4d4d1;
+    color: rgb(64, 64, 64);
+    padding: 20px 20px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@ header#navbar .logo {
 }
 
 header#navbar nav a {
-    color: white;
+    color: rgb(49, 49, 49);
     margin: 0 15px;
     text-decoration: none;
     font-size: 16px;
